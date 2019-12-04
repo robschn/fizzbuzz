@@ -1,5 +1,4 @@
 for x in range(1,101):
-    y = ''
     if x % 15 == 0:
         y = 'FizzBuzz'
     elif x % 3 == 0:
