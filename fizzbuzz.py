@@ -4,6 +4,6 @@ for x in range(1,101):
         y += 'Fizz'
     if x % 5 == 0:
         y += 'Buzz'
-    if y == '':
+    elif y == '':
         y = x
     print(f'Wow! The number {x} is actually {y}!')
