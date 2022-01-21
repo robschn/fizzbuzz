@@ -19,12 +19,13 @@ def fizz_buzz(fizz_num, fizz_tag, buzz_num, buzz_tag, num_range):
             y += buzz_tag
         elif y == '':
             y = x
-        print(f'Wow! The number {x} is actually {y}!')
+        return f'Wow! The number {x} is actually {y}!'
 
 
 def main():
-    fizz_buzz(3, 'Fizz', 5, 'Buzz', 100)
-
+    fb_ results = fizz_buzz(3, 'Fizz', 5, 'Buzz', 100)
+    print(fb_results)
+    
 
 if __name__ == "__main__":
     main()
